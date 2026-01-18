@@ -8,49 +8,101 @@
 </head>
 
 <body>
-
   <header>
-    <h1>Asian Food</h1>
+    <nav>
+      <div class="nav-container">
+        <h1>Discover Foods</h1>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="page1.html">Filipino</a></li>
+          <li><a href="page2.html">Korean</a></li>
+          <li><a href="page3.html">Japanese</a></li>
+        </ul>
+      </div>
+    </nav>
   </header>
 
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="page1.html">Page 1</a>
-    <a href="page2.html">Page 2</a>
-    <a href="page3.html">Page 3</a>
-  </nav>
-
   <main>
-    <h2>Explore Asian Food</h2>
-    <p>Click the different areas of the image to go to each page.</p>
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Asian Foods</h1>
+        <p>Discover Filipino, Korean, and Japanese cuisine</p>
+      </div>
+    </section>
 
-    <img src="img/hero.jpg" alt="Asian food collage" usemap="#foodmap" width="900" />
+    <section class="info-section">
+      <div class="info-container">
+        <h2>What is Asian Food?</h2>
+        <p>
+          Asian food is known for its rich flavors, unique cooking techniques, and
+          cultural traditions. From savory noodle dishes to flavorful rice meals,
+          Asian cuisine reflects the history and lifestyle of each country.
+        </p>
+      </div>
+    </section>
 
-    <map name="foodmap">
-      <!-- Rectangle area (goes to Page 1) -->
-      <area shape="rect" coords="50,80,300,260" href="page1.html" alt="Japanese Food" />
 
-      <!-- Circle area (goes to Page 2) -->
-      <area shape="circle" coords="680,180,90" href="page2.html" alt="Korean Food" />
+    <section class="feature">
+      <div class="feature-container">
+        <div class="feature-text">
+          <h2>Filipino Food</h2>
+          <p>
+            Filipino cuisine is known for its bold flavors, combining sweet, sour, and savory tastes. Popular dishes
+            include adobo, sinigang, and lechon.
+          </p>
+        </div>
 
-      <!-- Polygon area (goes to Page 3) -->
-      <area shape="poly" coords="420,320,560,280,720,350,670,470,460,460" href="page3.html" alt="Filipino Food" />
-    </map>
+        <div class="feature-image">
+          <img src="img/featured-filipino.png">
+        </div>
+      </div>
+    </section>
+
+    <section class="feature">
+      <div class="feature-container">
+        <div class="feature-image">
+          <img src="img/feature-korean.png">
+        </div>
+
+        <div class="feature-text">
+          <h2>Korean Food</h2>
+          <p>
+            Korean food emphasizes balance and fermentation, featuring dishes like kimchi, bibimbap, and Korean BBQ.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="feature">
+      <div class="feature-container">
+        <div class="feature-text">
+          <h2>Japanese Food</h2>
+          <p>
+            Japanese cuisine focuses on fresh ingredients, delicate flavors, and traditional cooking methods, offering
+            dishes like sushi, ramen, and tempura
+          </p>
+        </div>
+
+        <div class="feature-image">
+          <img src="img/feature-japanese.png">
+        </div>
+      </div>
+    </section>
   </main>
 
   <footer>
     <div class="row">
       <div class="col">
-        <h3>Title</h3>
-        <p>Website slogan blabla</p>
+        <h3>Website title</h3>
+        <p>description</p>
       </div>
       <div class="col">
         <h3>Link</h3>
         <ul>
           <li><a href="index.html">Home</a></li>
-          <li><a href="page1.html">Page 1</a></li>
-          <li><a href="page2.html">Page 2</a></li>
-          <li><a href="page3.html">Page 3</a></li>
+          <li><a href="page1.html">Filipino Food</a></li>
+          <li><a href="page2.html">Korean Food</a></li>
+          <li><a href="page3.html">Japanese Food</a></li>
         </ul>
       </div>
     </div>
