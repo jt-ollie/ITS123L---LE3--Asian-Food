@@ -4,7 +4,6 @@
 
 */
 
-/* NAVIGATION STYLING */
 nav {
     width: 100%;
     background-color: #fff;
@@ -16,14 +15,11 @@ nav {
 
 nav .nav-container {
     max-width: 1200px;
-    /* limits width */
     margin: auto;
-    /* centers the nav */
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 15px 20px;
-    /* smaller padding */
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }
@@ -58,8 +54,6 @@ nav ul li a:hover {
     transform: translateY(-2px);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
-
-
 
 /*
 
@@ -154,7 +148,6 @@ body {
 
 .feature {
     background-color: #fdf6f0;
-    /* light background */
     padding: 80px 20px;
 }
 
